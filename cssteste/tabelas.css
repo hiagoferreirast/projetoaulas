@@ -1,0 +1,20 @@
+caption {
+  color: blue;
+}
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+.imagem {
+  border: unset;
+  background: url(/imagens/acomodacoes.jpg);
+  background-size: contain;
+  width: 80%;
+  background-repeat: no-repeat;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}

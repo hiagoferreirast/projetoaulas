@@ -1,0 +1,24 @@
+p a {
+  color: blue;
+}
+.paragrafo {
+  color: red;
+}
+#paragrafo-rosa {
+  color: pink;
+}
+div {
+  border: 2px solid;
+  border-color: blue;
+  width: 300px;
+  height: 300px;
+}
+img {
+  width: inherit;
+  height: inherit;
+}
+/*
+Tag - 1 pt
+classe- 10 pt
+id- 100 pt
+*/

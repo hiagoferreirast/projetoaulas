@@ -1,0 +1,33 @@
+body {
+  background-image: url("/imagens/lazerpiscina-externa.jpg");
+  /*Adicionando fundo */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: red solid 20px;
+}
+p {
+  color: blue;
+  background-color: #0aa721;
+  text-decoration: underline rgb(81, 81, 15);
+  line-height: 50px; /* tamanho da altura de cada linha */
+  letter-spacing: 2px; /* tamanho do espaço entre cada letra */
+  word-spacing: 2px; /* tamanho do espaço entre cada palavra */
+  text-indent: 5px; /* tamanho da margem da primeira linha do texto */
+  font-size: 8px; /* tamanho da fonte*/
+  border: blue groove 5px;
+  border-radius: 50px;
+}
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border-top: 2px solid blue;
+  border-bottom: 5px dashed red;
+  border-left: 9px groove brown;
+  border-right: 20px solid yellow;
+}
+h2 {
+  font-family: sans-serif;
+  text-align: right;
+}
+h3 {
+  font-family: monospace;
+}

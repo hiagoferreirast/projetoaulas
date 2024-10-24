@@ -1,0 +1,19 @@
+p {
+  background-color: blueviolet;
+  height: 250px;
+  width: 250px;
+  /*
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+ 
+  /*padding: 10px;  Aplica em todas as direções
+  padding: 10px 15px;
+  Para cima e abaixo(10px) e esquerda e direita(15px)*/
+  padding: 10px 20px 15px;
+  /* 10px(acima) 20px(Esquerda e direita) 15px(abaixo)*/
+  padding: 10px 20px 15px 5px;
+  /*10px(acima),20px(direita),15px(abaixo),5px(esquerda)*/
+  margin: 20px 10px 15px 13px;
+}

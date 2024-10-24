@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;  
+    background-color: rgba(126, 126, 131, 0.418);  
+    top: 50%; /* centralizar */
+    left: 50%; /* esquerda */
+    transform: translate(-50%, -50%); /* -50% no eixo X e - 50% no eixo Y */
+    position: absolute; /* posicionar */
+    
+}  
+
+
+.maior{
+    background-color: #e7d9d8; /*cor do fundo*/
+    width: 400px; /*largura */
+    height: 300px; /* altura */
+    border:8px double rgb(0, 0, 0);
+    border-radius: 15px; /* raio da borda */
+}
+
+input[type=number]{
+    width: 150px; /* largura */
+    height: 30px; /* altura */
+    border: 2px solid rgb(0, 0, 0); /* borda */  
+}
+
+
+input[type=submit]{
+
+    background-color: #0b1655;
+    width: 120px; /*largura */
+    height: 40px; /* altura */  
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+
+}

@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f0f0; /**/
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  background-color: #333; /**/
+  padding: 20px 45px; /**/
+  border-radius: 8px; /**/
+  color: white; /**/
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #807f7f; /**/
+  color: white; /**/
+}
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none; /*Remove a borda padrão. */
+  border-radius: 4px; /*Adiciona cantos arredondados com raio de 4 pixels.*/
+  cursor: pointer; /* Muda o cursor para uma mão apontando ao passar sobre o botão.*/
+  text-align: center;
+}
+#enviar {
+  position: relative;
+}
+input[type="submit"]:hover {
+  background-color: #bd7234;
+}
+
+p {
+  color: #ffffff;
+  font-size: 14px;
+}
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="url"]:hover {
+  background-color: aqua;
+}

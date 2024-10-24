@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="/cssteste/formulariosimples.css" />
+  </head>
+  <body>
+    <form action="/php/entrada.php" method="post">
+      <h2>Deixe um comentário</h2>
+      <label for="text-input">Nome:</label><br />
+      <input type="text" id="nome" name="nome" required /><br /><br />
+
+      <label for="text-input">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="text-input">website:</label>
+      <input type="url" id="website" name="website" /><br /><br />
+      <label for="text-input">Comentário:</label>
+      <!--Representa uma legenda para item--><br />
+      <textarea
+        id="comentario"
+        name="comentario"
+        rows="4"
+        cols="50"
+        required
+      ></textarea>
+      <br /><br />
+      <!--Campo obrigatório - required-->
+      <p>
+        Observação: Seu comentário será publicado após passar pelo moderador
+      </p>
+
+      <input type="submit" id="enviar" value="Enviar Comentário" />
+    </form>
+  </body>
+</html>
